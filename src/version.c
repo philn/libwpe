@@ -25,24 +25,23 @@
  */
 
 #include "wpe/version.h"
-#include "wpe/version-deprecated.h"
 
 unsigned
 wpe_get_major_version(void)
 {
-    return WPE_BACKEND_MAJOR_VERSION;
+    return WPE_MAJOR_VERSION;
 }
 
 unsigned
 wpe_get_minor_version(void)
 {
-    return WPE_BACKEND_MINOR_VERSION;
+    return WPE_MINOR_VERSION;
 }
 
 unsigned
 wpe_get_micro_version(void)
 {
-    return WPE_BACKEND_MICRO_VERSION;
+    return WPE_MICRO_VERSION;
 }
 
 unsigned
