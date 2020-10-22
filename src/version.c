@@ -25,7 +25,6 @@
  */
 
 #include "version.h"
-#include "version-deprecated.h"
 
 unsigned
 wpe_get_major_version(void)
