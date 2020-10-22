@@ -154,6 +154,6 @@ if get_option('build-docs')
 endif
 
 libwpe_dep = declare_dependency(link_with : libwpe,
-  include_directories : include_directories('include', meson.current_build_dir()),
+  include_directories : include_directories('include'),
   dependencies : dependencies,
 )
