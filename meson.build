@@ -110,11 +110,6 @@ api_headers = [
 		output: 'version.h',
 		configuration: version_info,
 	),
-	configure_file(
-		input: 'include/wpe/version-deprecated.h.cmake',
-		output: 'version-deprecated.h',
-		configuration: version_info,
-	),
 ]
 install_headers(api_headers,
 	subdir: join_paths('wpe-' + api_version, 'wpe'),
