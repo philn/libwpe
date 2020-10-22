@@ -154,6 +154,6 @@ if get_option('build-docs')
 endif
 
 libwpe_dep = declare_dependency(link_with : libwpe,
-  include_directories : include_directories('include'),
+  include_directories : include_directories('.'),
   dependencies : dependencies,
 )
